@@ -1,0 +1,17 @@
+<html>
+   <body>
+   
+      <form action = "http://localhost:5000/load" method = "POST" 
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+      </form>
+      <p>{{ output }}</p>
+      <img src="{{url_for('static', filename='amer_sign2.png')}}"/>
+      
+       <br>
+       
+       
+       
+   </body>
+</html>
